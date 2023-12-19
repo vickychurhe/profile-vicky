@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS learning</title>
+    <!-- CDS link Font Awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <style>
       /* Name Selector */
 
-      p{
-
-          color: red;  
-
-        }
+      p {
+        color: red;
+      }
 
       /* Id Selector */
 
@@ -25,18 +26,17 @@
       /* Class Selector */
 
       .nonDeveloper {
-        color: yellow;
+        color: blue;
 
         font-weight: bold;
       }
 
       /* Combinator Selector */
 
-      #java,.nonDeveloper {
-
-background-color:blue;
-
-}
+      #java,
+      .nonDeveloper {
+        background-color: yellow;
+      }
 
       #web {
         color: #f17d56;
@@ -52,7 +52,15 @@ background-color:blue;
         font-style: italic;
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
+
+      #friends li{
+        list-style-type: lower-alpha;
+        padding: 8px;
+        background-color: burlywood;
+      }
+
     </style>
   </head>
   <body>
@@ -75,5 +83,25 @@ background-color:blue;
     <p>I am very good in <span id="web"> Web Development </span> and DSA</p>
 
     <p id="learning">I am learning CSS and enjoying too</p>
+
+    <h2> List off my friends...</h2>
+
+    <ol id="friends">
+      <li>Jenny</li>
+      <li>Bill</li>
+      <li>Elon</li>
+      <li>Stew</li>
+    </ol>
+
+    <h2> Name off Wild Animal</h2>
+    <ol>
+      <li>Lion</li>
+      <li>Tiger</li>
+      <li>Leopard</li>
+      <li>Cheetah</li>
+    </ol>
+
+   <i class="fa fa-user-circle-o" aria-hidden="true"></i> <span>Vijay Churhe</span>
+   
   </body>
 </html>

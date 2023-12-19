@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- cdn link for google font style -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+
+    
     <style>
       header {
         color: brown;
@@ -12,17 +20,15 @@
 
       p {
         font-size: large;
+        font-family: 'Roboto', sans-serif;
       }
+
       /* Class Selector */
 
       .heading {
-        color: aliceblue;
-
-        background-color: black;
-      }
-
-      span {
-        color: orange;
+        color: red;
+        font-family: 'Poppins', sans-serif;
+        background-color: lightgoldenrodyellow;
       }
 
       #experience {
@@ -33,20 +39,31 @@
         font-weight: bolder;
       }
 
-      body{
+      body {
         background-color: lightblue;
       }
 
-      ul li{
-        padding:13px;
+      ul li {
+        padding: 13px;
+  
       }
+ header span{
+            font-size: larger;
+            margin-right: 20px;
+        }
+        ul li{
+          list-style-type: circle;
+          font-family: 'Poppins', sans-serif;
+        }
+        
     </style>
   </head>
   <body>
     <header>
-      Name: Vijay Churhe &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mobile: 7878 76 5434
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: abv@gmail.com
-    </header>
+      <span> Name: Vijay Churhe</span>
+          <span>Mobile: 7878 76 5434</span>
+       <span>Email: abv@gmail.com </span>
+      </header>
     <hr />
     <h2 class="heading">Career Objective</h2>
     <p>
@@ -59,7 +76,7 @@
     <ul>
       <li>
         Having 5 year experience in developing single page web application using
-        <span>Angular 13, </span> HTML5, CSS3, Bootstrap 5, Java Script.
+        <span style="color: blue;">Angular 13, </span> HTML5, CSS3, Bootstrap 5, Java Script.
       </li>
       <li id="experience">
         Experience on working with version control system- GIT and GitHUB.
