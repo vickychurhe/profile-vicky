@@ -6,12 +6,13 @@
     <title>Document</title>
     <!-- cdn link for google font style -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
 
-
-    
     <style>
       header {
         color: brown;
@@ -20,15 +21,15 @@
 
       p {
         font-size: large;
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
       }
 
       /* Class Selector */
 
       .heading {
         color: red;
-        font-family: 'Poppins', sans-serif;
-        background-color: lightgoldenrodyellow;
+        font-family: "Poppins", sans-serif;
+        background-color: lightgreen;
       }
 
       #experience {
@@ -39,31 +40,30 @@
         font-weight: bolder;
       }
 
-      body {
-        background-color: lightblue;
-      }
-
       ul li {
         padding: 13px;
-  
       }
- header span{
-            font-size: larger;
-            margin-right: 20px;
-        }
-        ul li{
-          list-style-type: circle;
-          font-family: 'Poppins', sans-serif;
-        }
-        
+      header span {
+        font-size: larger;
+        margin-right: 20px;
+      }
+      ul li {
+        list-style-type: none;
+        font-family: "Poppins", sans-serif;
+      }
+
+      /* emojipedia */
+      ul li::before {
+        content: "👉";
+      }
     </style>
   </head>
   <body>
     <header>
       <span> Name: Vijay Churhe</span>
-          <span>Mobile: 7878 76 5434</span>
-       <span>Email: abv@gmail.com </span>
-      </header>
+      <span>Mobile: 7878 76 5434</span>
+      <span>Email: abv@gmail.com </span>
+    </header>
     <hr />
     <h2 class="heading">Career Objective</h2>
     <p>
@@ -76,7 +76,8 @@
     <ul>
       <li>
         Having 5 year experience in developing single page web application using
-        <span style="color: blue;">Angular 13, </span> HTML5, CSS3, Bootstrap 5, Java Script.
+        <span style="color: blue">Angular 13, </span> HTML5, CSS3, Bootstrap 5,
+        Java Script.
       </li>
       <li id="experience">
         Experience on working with version control system- GIT and GitHUB.
